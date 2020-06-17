@@ -1,0 +1,127 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Le BUG-1</title>
+	<link href="dist/css/bootstrap.css" rel="stylesheet" type="text/css">
+	<link href="dist/css/style.css" rel="stylesheet" type="text/css">
+	<script src="https://kit.fontawesome.com/e067df17a6.js" crossorigin="anonymous"></script>
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.0/css/mdb.min.css" rel="stylesheet">
+</head>
+
+<body>
+<nav class="navbar navbar-expand-lg navbar-light grey lighten-3" style="background-color: #EDEDED;">
+  <a class="navbar-brand" href="index.html">
+  <img src="images/nom.png" width="160" height="30" class="d-inline-block align-top" alt="">
+  </a>
+  
+<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent1" aria-controls="navbarSupportedContent1" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent1">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item"> <a class="nav-link" href="index.html">Accueil</a> </li>
+      <li class="nav-item"> <a class="nav-link" href="Activités.html">Activités</a> </li>
+	  <li class="nav-item"> <a class="nav-link" href="Ateliers.html">Ateliers</a> </li>
+	  <li class="nav-item"> <a class="nav-link" href="Projets.html">Projets</a> </li>
+	  <li class="nav-item"> <a class="nav-link" href="Galerie.html">Galerie</a> </li>
+	  <li class="nav-item active"> <a class="nav-link" href="Contact.html">Contact <span class="sr-only">(current)</span></a> </li>
+	</ul>
+	<div class="row justify-content-sm-center justify-content-lg-end">
+		<div class="col-sm-1 col-lg-2 col-xl-2 align-items-center">
+			<a href="https://www.facebook.com/MJBug1Genappe/" target="_blank">
+					<img src="images/facebook.png" alt="Facebook" style="width: 40px"/>
+			</a>
+			<a href="https://www.instagram.com/lebug_1/" target="_blank" style="margin-right: 8px">
+					<img src="images/instagram.png" alt="Instagram" style="width: 40px"/>
+			</a>
+		</div>
+		<div class="col-xl-10 col-lg-9 col-md-5 col-sm-5 my-auto">
+			<div class="gcse-search" ><script async src="https://cse.google.com/cse.js?cx=004432247911654219181:nx415hm5d3m" ></script></div>
+		</div>
+	</div>
+  </div>
+</nav>
+		
+<div style="flex:1;">
+		<div class="container-fluid row justify-content-center" style="margin-left: auto;margin-right: auto">	
+			<div class="col-md-5 mt-3">
+				<form>
+					<h5 style="color: #12A19A;text-align: center">Un petit message ?</h5>
+					<div class="form-group">
+						<label for="nom">Nom</label>
+						<input type="text" class="form-control" id="nom" placeholder="Jean-jean">
+					</div>
+					<div class="form-group">
+    					<label for="emailcontact">Adresse e-mail</label>
+						<input type="email" class="form-control" id="emailcontact" placeholder="nom@exemple.com">
+					</div>
+					<div class="form-group">
+						<label for="message">Message</label>
+						<textarea class="form-control" id="message" placeholder="J'aime le Bug-1 <3" style="height: 80px;"></textarea>
+					</div>
+					<center>
+						<button type="submit" class="btn btn-outline-bugone">Envoyer</button>
+					</center>
+				</form>
+			</div>
+			<div class="col-md-5 mt-3">
+				<h5 style="text-align: center;color: #12A19A">Inscrivez-vous à la newsletter!</h5>
+				<br/>
+				<form method="post" action="newsletter.php">
+					<div class="form-group">
+						<label for="prenomnews">Prénom</label>
+						<input type="text" class="form-control" name="prenomnews" placeholder="Entrez votre prénom" required>
+						<div class="invalid-feedback">
+							Veuillez insérer votre prénom.
+						</div>
+					</div>
+					<div class="form-group">
+						<label for="nomnews">Nom</label>
+						<input type="text" class="form-control" name="nomnews" placeholder="Entrez votre nom" required>
+						<div class="invalid-feedback">
+							Veuillez insérer votre nom.
+						</div>
+					</div>
+					<div class="form-group">
+						<label for="emailnews">Adresse e-mail</label>
+						<input type="email" class="form-control" name="emailnews" placeholder="Entrez votre adresse email" required>
+						<div class="invalid-feedback">
+							Veuillez insérer votre adresse e-mail.
+						</div>
+					</div>
+					<center>
+						<button type="submit" class="btn btn-outline-bugone" style="margin-top: 20px;">
+							Je veux la recevoir!<i class="fas fa-paper-plane" aria-hidden="true" style="margin-left: 7px"></i>
+						</button>
+					</center>
+				</form>
+			</div>
+		</div>
+	<div class="col-md-5 mt-3" style="margin-bottom:auto;margin-left: auto;margin-right: auto;margin-top: 10px">
+		<div style="text-align: center">
+			<table style="margin-left: auto;margin-right: auto;">
+				<tr><th><h5 style="color: #12A19A;margin-bottom: 15px">Contactez-nous!</h5></th></tr>
+				<tr><td style="padding: 5px;">Bureau: 067 49 05 51</td></tr>
+				<tr><td style="padding: 5px;">Coordination: 0476 81 15 93</td></tr>
+				<tr><td style="padding: 5px;">Animation: 0471 85 50 12</td></tr>
+				<tr><td style="padding: 5px;">Tristan - Coordinateur: tristan@bug-1.be</td></tr>
+				<tr><td style="padding: 5px;">Amaury - Animateur: amaury@bug-1.be</td></tr>
+				<tr><td style="padding: 5px;">Alicia - Animatrice: alicia@bug-1.be</td></tr>
+				<tr><td style="padding: 5px;">Damien - Animateur: damien@bug-1.be</td></tr>
+				<tr><td style="padding: 5px;">Emilie - Présidente: emilie@ccgenappe.be</td></tr>
+			</table>
+		</div>
+		
+	</div>
+</div>
+<footer class="page-footer font-small grey lighten-3 pt-2" style="margin-top:15px">	
+	<div class="footer-copyright text-center py-3">
+		<p style="color: black">© 2020 Renk Xavier-Philippe</p>
+	</div>
+</footer>
+<script src="dist/js/jquery-3.2.1.min.js"></script>
+<script src="dist/js/popper.min.js"></script>
+<script src="dist/js/bootstrap.js"></script>
+</body>
+</html>
